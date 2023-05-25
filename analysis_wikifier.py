@@ -1,15 +1,16 @@
 import urllib.parse, urllib.request, json
 
-def CallWikifier(text, lang="en", threshold=0.8):
+def CallWikifier(text, lang="en", threshold=0.75):
     # Prepare the URL.
     data = urllib.parse.urlencode([
         ("text", text), ("lang", lang),
         ("userKey", "weykbdnnowmxrsbcmofhiolwllztrv"),
         ("pageRankSqThreshold", "%g" % threshold), ("applyPageRankSqThreshold", "true"),
         ("nTopDfValuesToIgnore", "200"), ("nWordsToIgnoreFromList", "200"),
-        ("wikiDataClasses", "true"), ("wikiDataClassIds", "false"),
-        ("support", "true"), ("ranges", "false"), ("minLinkFrequency", "2"),
-        ("includeCosines", "false"), ("maxMentionEntropy", "3"), ("secondaryAnnotLanguage", "de")
+        ("wikiDataClasses", "false"), ("wikiDataClassIds", "false"),
+        ("support", "true"), ("ranges", "true"), ("minLinkFrequency", "2"),
+        ("includeCosines", "false"), ("maxMentionEntropy", "3"), ("secondaryAnnotLanguage", "de"),
+        ("maxTargetsPerMention", "3")
         ])
     url = "http://www.wikifier.org/annotate-article"
     # Call the Wikifier and read the response.
@@ -17,28 +18,36 @@ def CallWikifier(text, lang="en", threshold=0.8):
     with urllib.request.urlopen(req, timeout = 60) as f:
         response = f.read()
         response = json.loads(response.decode("utf8"))
-        print(json.dumps(response, indent=2))
+        # print(json.dumps(response, indent=2))
 
         # Pretty Print
         print("="*100)
         print(f"TEXT : {text}")
-        for rank, annotation_json in enumerate(response["annotations"]):
+        for annotation_json in response["annotations"]:
             chFrom = annotation_json['support'][0]['chFrom']
             chTo = annotation_json['support'][-1]['chTo']
-            print(f"MENTION : {text[chFrom:chTo+1]}")
-            print(json.dumps(annotation_json['support'],indent=2))
+            mention = text[chFrom:chTo+1]
+            print(f"MENTION : {mention}")
+            # print(json.dumps(annotation_json['support'],indent=2))
             print()
-            print(f"Rank: {rank+1}")
-            print(f"WP Title: {annotation_json['title']}")
-            print(f"PageRank: {annotation_json['pageRank']}")
-            print(f"{annotation_json['url']}")
+            for substr_obj in  response['ranges']:
+                substr_obj_text = " ".join(substr_obj['wordsUsed'])
+                if substr_obj_text == mention:
+                    candidates_obj = substr_obj["candidates"]
+                    for candidate in candidates_obj:
+                        print(candidate['title'])
 
-            if annotation_json.get('secTitle', None) is not None:
-                print(f"SecTitle: {annotation_json['secTitle']}")
-                print(f"SecURL: {annotation_json['secUrl']}")
+            # print(f"Rank: {rank+1}")
+            # print(f"WP Title: {annotation_json['title']}")
+            # print(f"PageRank: {annotation_json['pageRank']}")
+            # print(f"{annotation_json['url']}")
 
-            qid = annotation_json.get('wikiDataItemId', 'NA')
-            print(f"QID: {qid}")
+            # if annotation_json.get('secTitle', None) is not None:
+            #     print(f"SecTitle: {annotation_json['secTitle']}")
+            #     print(f"SecURL: {annotation_json['secUrl']}")
+
+            # qid = annotation_json.get('wikiDataItemId', 'NA')
+            # print(f"QID: {qid}")
             print()
             print()
 
