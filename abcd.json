@@ -82,6 +82,32 @@
           "entropy": 1.035852919079605
         }
       ]
+    },
+    {
+      "title": "Syrian opposition",
+      "url": "http://en.wikipedia.org/wiki/Syrian_opposition",
+      "lang": "en",
+      "pageRank": 0.05792978468779898,
+      "wikiDataItemId": "Q3024068",
+      "dbPediaTypes": [
+        "Agent",
+        "Organisation",
+        "Disease"
+      ],
+      "dbPediaIri": "http://dbpedia.org/resource/Syrian_opposition",
+      "supportLen": 1,
+      "support": [
+        {
+          "wFrom": 14,
+          "wTo": 14,
+          "chFrom": 86,
+          "chTo": 91,
+          "pMentionGivenSurface": 0.006670632222977566,
+          "pageRank": 0.000740708002954013,
+          "prbConfidence": 0.4357079541983824,
+          "entropy": 2.283355031793334
+        }
+      ]
     }
   ],
   "spaces": [
@@ -11602,18 +11628,18 @@
       "nCandsIgnoredDueToWikiDataClass": 4
     }
   ],
-  "minPageRank": 0.06989024947828519,
+  "minPageRank": 0.05792978468779898,
   "maxDfThreshold": -1,
   "altLabelSetsUsed": [],
   "linkSourcesAvailable": true,
-  "timeTotalMs": 16.365,
-  "timeAnnotationMs": 16.365,
+  "timeTotalMs": 0,
+  "timeAnnotationMs": 0,
   "timeBuildJsonMs": 0,
   "incIdxTimestampUtc": "",
   "fnRegIdx": "enwiki-20220120-pages-articles-index3.bin",
   "fnWikiData": "wikidata-20200803-all.bin",
   "settings": {
-    "pageRankSqThreshold": 0.75,
+    "pageRankSqThreshold": 0.8,
     "applyPageRankSqThreshold": true,
     "minPMentionGivenPhrase": 0,
     "maxMentionEntropy": 3,
