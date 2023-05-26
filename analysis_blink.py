@@ -84,9 +84,9 @@ for text in x:
             print(f"Score: {round(s, 2)}")
             try:
                 page_py = wiki_wiki.page(p)
-                print(page_py)
+                # print(page_py)
                 full_url = page_py.fullurl
-                print(full_url)
+                # print(full_url)
                 can_url_last = full_url.split("/")[-1]
                 qid = wikidata_id_of_wikipage(can_url_last)
                 print(full_url)

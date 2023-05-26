@@ -1,7 +1,7 @@
 Loading model...
 Model Loaded...
 Loading NER...
-2023-05-24 23:01:29,259 loading file /Users/dhruv/.flair/models/en-ner-conll03-v0.4.pt
+2023-05-26 11:52:05,305 loading file /Users/dhruv/.flair/models/en-ner-conll03-v0.4.pt
 NER Loaded...
 Starting Analysis ...
 ====================================================================================================
@@ -11,24 +11,18 @@ MENTION: 	 akash ambani
 Rank: 1
 WP Title: Anil Ambani
 Score: 83.05999755859375
-Anil Ambani (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Anil_Ambani
 https://en.wikipedia.org/wiki/Anil_Ambani
 QID: Q381748
 
 Rank: 2
 WP Title: Dhirubhai Ambani
 Score: 81.68000030517578
-Dhirubhai Ambani (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Dhirubhai_Ambani
 https://en.wikipedia.org/wiki/Dhirubhai_Ambani
 QID: Q468364
 
 Rank: 3
 WP Title: Ashok Amritraj
 Score: 81.58000183105469
-Ashok Amritraj (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Ashok_Amritraj
 https://en.wikipedia.org/wiki/Ashok_Amritraj
 QID: Q2350423
 
@@ -37,24 +31,18 @@ MENTION: 	 ambani
 Rank: 1
 WP Title: Anil Ambani
 Score: 84.8499984741211
-Anil Ambani (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Anil_Ambani
 https://en.wikipedia.org/wiki/Anil_Ambani
 QID: Q381748
 
 Rank: 2
 WP Title: Dhirubhai Ambani
 Score: 83.58999633789062
-Dhirubhai Ambani (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Dhirubhai_Ambani
 https://en.wikipedia.org/wiki/Dhirubhai_Ambani
 QID: Q468364
 
 Rank: 3
 WP Title: Ambani
 Score: 82.91000366210938
-Ambani (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Ambani
 https://en.wikipedia.org/wiki/Ambani
 QID: Q56537487
 
@@ -63,21 +51,16 @@ MENTION: 	 jio platforms
 Rank: 1
 WP Title: Jio
 Score: 85.5999984741211
-Jio (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Jio
 https://en.wikipedia.org/wiki/Jio
 QID: Q18643672
 
 Rank: 2
 WP Title: EXo platform
 Score: 82.01000213623047
-EXo platform (id: ??, ns: 0)
 Error: 'fullurl'
 Rank: 3
 WP Title: Vidyo
 Score: 81.83999633789062
-Vidyo (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Vidyo
 https://en.wikipedia.org/wiki/Vidyo
 QID: Q4052686
 
@@ -86,24 +69,18 @@ MENTION: 	 reliance jio infocomm
 Rank: 1
 WP Title: Jio
 Score: 83.05999755859375
-Jio (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Jio
 https://en.wikipedia.org/wiki/Jio
 QID: Q18643672
 
 Rank: 2
 WP Title: Reliance Communications
 Score: 81.7699966430664
-Reliance Communications (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Reliance_Communications
 https://en.wikipedia.org/wiki/Reliance_Communications
 QID: Q729342
 
 Rank: 3
 WP Title: Jaypee Institute of Information Technology
 Score: 80.41999816894531
-Jaypee Institute of Information Technology (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Jaypee_Institute_of_Information_Technology
 https://en.wikipedia.org/wiki/Jaypee_Institute_of_Information_Technology
 QID: Q6167945
 
@@ -112,21 +89,16 @@ MENTION: 	 jio
 Rank: 1
 WP Title: Jio
 Score: 86.12999725341797
-Jio (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Jio
 https://en.wikipedia.org/wiki/Jio
 QID: Q18643672
 
 Rank: 2
 WP Title: Quality Improvement Organizations (QIOs) in Medicare
 Score: 83.05000305175781
-Quality Improvement Organizations (QIOs) in Medicare (id: ??, ns: 0)
 Error: 'fullurl'
 Rank: 3
 WP Title: Chief digital officer
 Score: 82.68000030517578
-Chief digital officer (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Chief_digital_officer
 https://en.wikipedia.org/wiki/Chief_digital_officer
 QID: Q5096712
 
@@ -140,24 +112,16 @@ MENTION: 	 hermann h. dieter
 Rank: 1
 WP Title: Hermann Hendrich
 Score: 80.62000274658203
-Hermann Hendrich (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Hermann_Hendrich
-https://en.wikipedia.org/wiki/Hermann_Hendrich
-QID: Q324469
-
+Error: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=10.0)
 Rank: 2
 WP Title: Günther Friedländer
 Score: 79.83999633789062
-Günther Friedländer (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/G%C3%BCnther_Friedl%C3%A4nder
 https://en.wikipedia.org/wiki/G%C3%BCnther_Friedl%C3%A4nder
 QID: Q28017920
 
 Rank: 3
 WP Title: Hermann von Eichhorn
 Score: 79.76000213623047
-Hermann von Eichhorn (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Hermann_von_Eichhorn
 https://en.wikipedia.org/wiki/Hermann_von_Eichhorn
 QID: Q61023
 
@@ -166,24 +130,18 @@ MENTION: 	 spaichingen
 Rank: 1
 WP Title: Spaichingen
 Score: 81.5
-Spaichingen (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Spaichingen
 https://en.wikipedia.org/wiki/Spaichingen
 QID: Q519688
 
 Rank: 2
 WP Title: Spaichingen station
 Score: 77.98999786376953
-Spaichingen station (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Spaichingen_station
 https://en.wikipedia.org/wiki/Spaichingen_station
 QID: Q801449
 
 Rank: 3
 WP Title: Sovetsk, Kaliningrad Oblast
 Score: 76.12000274658203
-Sovetsk, Kaliningrad Oblast (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Sovetsk,_Kaliningrad_Oblast
 https://en.wikipedia.org/wiki/Sovetsk,_Kaliningrad_Oblast
 QID: Q5647
 
@@ -192,24 +150,18 @@ MENTION: 	 german
 Rank: 1
 WP Title: Germany
 Score: 80.58999633789062
-Germany (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Germany
 https://en.wikipedia.org/wiki/Germany
 QID: Q183
 
 Rank: 2
 WP Title: Germans
 Score: 79.83999633789062
-Germans (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Germans
 https://en.wikipedia.org/wiki/Germans
 QID: Q42884
 
 Rank: 3
 WP Title: German language
 Score: 76.5199966430664
-German language (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/German_language
 https://en.wikipedia.org/wiki/German_language
 QID: Q188
 
@@ -218,24 +170,18 @@ MENTION: 	 german
 Rank: 1
 WP Title: Germany
 Score: 82.12999725341797
-Germany (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Germany
 https://en.wikipedia.org/wiki/Germany
 QID: Q183
 
 Rank: 2
 WP Title: States of Germany
 Score: 77.86000061035156
-States of Germany (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/States_of_Germany
 https://en.wikipedia.org/wiki/States_of_Germany
 QID: Q1221156
 
 Rank: 3
 WP Title: Germans
 Score: 77.86000061035156
-Germans (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Germans
 https://en.wikipedia.org/wiki/Germans
 QID: Q42884
 
@@ -244,24 +190,18 @@ MENTION: 	 federal environment agency
 Rank: 1
 WP Title: Federal Office for the Environment
 Score: 85.47000122070312
-Federal Office for the Environment (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Federal_Office_for_the_Environment
 https://en.wikipedia.org/wiki/Federal_Office_for_the_Environment
 QID: Q1005498
 
 Rank: 2
 WP Title: European Environment Agency
 Score: 83.54000091552734
-European Environment Agency (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/European_Environment_Agency
 https://en.wikipedia.org/wiki/European_Environment_Agency
 QID: Q632988
 
 Rank: 3
 WP Title: Federal Ministry of the Environment, Nature Conservation and Nuclear Safety
 Score: 83.33000183105469
-Federal Ministry of the Environment, Nature Conservation and Nuclear Safety (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Federal_Ministry_for_the_Environment,_Nature_Conservation,_Nuclear_Safety_and_Consumer_Protection
 https://en.wikipedia.org/wiki/Federal_Ministry_for_the_Environment,_Nature_Conservation,_Nuclear_Safety_and_Consumer_Protection
 QID: Q493344
 
@@ -270,24 +210,18 @@ MENTION: 	 institute for water, soil and air hygiene
 Rank: 1
 WP Title: Federal Institute for Occupational Safety and Health
 Score: 77.6500015258789
-Federal Institute for Occupational Safety and Health (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Federal_Institute_for_Occupational_Safety_and_Health
 https://en.wikipedia.org/wiki/Federal_Institute_for_Occupational_Safety_and_Health
 QID: Q1005523
 
 Rank: 2
 WP Title: Institute for Occupational Safety and Health of the German Social Accident Insurance
 Score: 77.55000305175781
-Institute for Occupational Safety and Health of the German Social Accident Insurance (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Institute_for_Occupational_Safety_and_Health_of_the_German_Social_Accident_Insurance
 https://en.wikipedia.org/wiki/Institute_for_Occupational_Safety_and_Health_of_the_German_Social_Accident_Insurance
 QID: Q896270
 
 Rank: 3
 WP Title: Institute of Applied Medicines and Research
 Score: 77.48999786376953
-Institute of Applied Medicines and Research (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Chaudhary_Charan_Singh_University
 https://en.wikipedia.org/wiki/Chaudhary_Charan_Singh_University
 QID: Q5088072
 
@@ -296,24 +230,18 @@ MENTION: 	 federal health office
 Rank: 1
 WP Title: Federal Health Agency
 Score: 84.77999877929688
-Federal Health Agency (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Federal_Health_Agency
 https://en.wikipedia.org/wiki/Federal_Health_Agency
 QID: Q1006109
 
 Rank: 2
 WP Title: Federal Ministry of Health (Germany)
 Score: 82.80000305175781
-Federal Ministry of Health (Germany) (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Federal_Ministry_of_Health_(Germany)
 https://en.wikipedia.org/wiki/Federal_Ministry_of_Health_(Germany)
 QID: Q491566
 
 Rank: 3
 WP Title: Federal Ministry of Health and Social Affairs (Germany)
 Score: 82.06999969482422
-Federal Ministry of Health and Social Affairs (Germany) (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Federal_Ministry_of_Health_and_Social_Affairs_(Germany)
 https://en.wikipedia.org/wiki/Federal_Ministry_of_Health_and_Social_Affairs_(Germany)
 QID: Q5440301
 
@@ -327,24 +255,18 @@ MENTION: 	 michael douglas henry '
 Rank: 1
 WP Title: Michael Kroger
 Score: 81.6500015258789
-Michael Kroger (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Michael_Kroger
 https://en.wikipedia.org/wiki/Michael_Kroger
 QID: Q16189357
 
 Rank: 2
 WP Title: Michael Henry (Alberta politician)
 Score: 81.51000213623047
-Michael Henry (Alberta politician) (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Michael_Henry_(Alberta_politician)
 https://en.wikipedia.org/wiki/Michael_Henry_(Alberta_politician)
 QID: Q6831097
 
 Rank: 3
 WP Title: John Henry Kreitler
 Score: 81.30000305175781
-John Henry Kreitler (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/John_Henry_Kreitler
 https://en.wikipedia.org/wiki/John_Henry_Kreitler
 QID: Q6238862
 
@@ -353,24 +275,18 @@ MENTION: 	 mike kroeger
 Rank: 1
 WP Title: Michael Kroger
 Score: 81.62999725341797
-Michael Kroger (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Michael_Kroger
 https://en.wikipedia.org/wiki/Michael_Kroger
 QID: Q16189357
 
 Rank: 2
 WP Title: Arthur Kroeger
 Score: 81.37000274658203
-Arthur Kroeger (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Arthur_Kroeger
 https://en.wikipedia.org/wiki/Arthur_Kroeger
 QID: Q4799396
 
 Rank: 3
 WP Title: Mike Kroger
 Score: 81.11000061035156
-Mike Kroger (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Mike_Kroger
 https://en.wikipedia.org/wiki/Mike_Kroger
 QID: Q27063387
 
@@ -379,24 +295,18 @@ MENTION: 	 hanna
 Rank: 1
 WP Title: Hanna, Alberta
 Score: 85.37000274658203
-Hanna, Alberta (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Hanna,_Alberta
 https://en.wikipedia.org/wiki/Hanna,_Alberta
 QID: Q747623
 
 Rank: 2
 WP Title: Bellevue, Alberta
 Score: 79.87999725341797
-Bellevue, Alberta (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Bellevue,_Alberta
 https://en.wikipedia.org/wiki/Bellevue,_Alberta
 QID: Q4883879
 
 Rank: 3
 WP Title: Hanna, Wyoming
 Score: 79.48999786376953
-Hanna, Wyoming (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Hanna,_Wyoming
 https://en.wikipedia.org/wiki/Hanna,_Wyoming
 QID: Q1029819
 
@@ -405,24 +315,18 @@ MENTION: 	 alberta
 Rank: 1
 WP Title: Alberta
 Score: 84.58000183105469
-Alberta (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Alberta
 https://en.wikipedia.org/wiki/Alberta
 QID: Q1951
 
 Rank: 2
 WP Title: Ontario
 Score: 77.30000305175781
-Ontario (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Ontario
 https://en.wikipedia.org/wiki/Ontario
 QID: Q1904
 
 Rank: 3
 WP Title: Colorado
 Score: 76.94999694824219
-Colorado (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Colorado
 https://en.wikipedia.org/wiki/Colorado
 QID: Q1261
 
@@ -431,24 +335,18 @@ MENTION: 	 canadian
 Rank: 1
 WP Title: Canada
 Score: 83.54000091552734
-Canada (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Canada
 https://en.wikipedia.org/wiki/Canada
 QID: Q16
 
 Rank: 2
 WP Title: Canadians
 Score: 82.30000305175781
-Canadians (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Canadians
 https://en.wikipedia.org/wiki/Canadians
 QID: Q1196645
 
 Rank: 3
 WP Title: Provinces and territories of Canada
 Score: 79.52999877929688
-Provinces and territories of Canada (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada
 https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada
 QID: Q2879
 
@@ -457,24 +355,18 @@ MENTION: 	 nickelback
 Rank: 1
 WP Title: Nickelback
 Score: 86.51000213623047
-Nickelback (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Nickelback
 https://en.wikipedia.org/wiki/Nickelback
 QID: Q483802
 
 Rank: 2
 WP Title: Nickel Creek
 Score: 79.75
-Nickel Creek (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Nickel_Creek
 https://en.wikipedia.org/wiki/Nickel_Creek
 QID: Q1895390
 
 Rank: 3
 WP Title: The Razorbacks
 Score: 77.2300033569336
-The Razorbacks (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/The_Razorbacks
 https://en.wikipedia.org/wiki/The_Razorbacks
 QID: Q7759534
 
@@ -483,24 +375,18 @@ MENTION: 	 nickelback
 Rank: 1
 WP Title: Nickelback
 Score: 85.06999969482422
-Nickelback (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Nickelback
 https://en.wikipedia.org/wiki/Nickelback
 QID: Q483802
 
 Rank: 2
 WP Title: Nickel Creek
 Score: 79.55999755859375
-Nickel Creek (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Nickel_Creek
 https://en.wikipedia.org/wiki/Nickel_Creek
 QID: Q1895390
 
 Rank: 3
 WP Title: Winger (band)
 Score: 79.27999877929688
-Winger (band) (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Winger_(band)
 https://en.wikipedia.org/wiki/Winger_(band)
 QID: Q522849
 
@@ -509,24 +395,18 @@ MENTION: 	 the village idiots
 Rank: 1
 WP Title: Village idiot
 Score: 80.56999969482422
-Village idiot (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Village_idiot
 https://en.wikipedia.org/wiki/Village_idiot
 QID: Q264231
 
 Rank: 2
 WP Title: The Cardboard Brains
 Score: 79.26000213623047
-The Cardboard Brains (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/The_Cardboard_Brains
 https://en.wikipedia.org/wiki/The_Cardboard_Brains
 QID: Q28405854
 
 Rank: 3
 WP Title: Village People
 Score: 78.94000244140625
-Village People (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Village_People
 https://en.wikipedia.org/wiki/Village_People
 QID: Q219874
 
@@ -540,24 +420,18 @@ MENTION: 	 khalifa
 Rank: 1
 WP Title: Khalifa bin Salman Al Khalifa
 Score: 82.2699966430664
-Khalifa bin Salman Al Khalifa (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Khalifa_bin_Salman_Al_Khalifa
 https://en.wikipedia.org/wiki/Khalifa_bin_Salman_Al_Khalifa
 QID: Q57726
 
 Rank: 2
 WP Title: Khalifa bin Zayed Al Nahyan
 Score: 81.11000061035156
-Khalifa bin Zayed Al Nahyan (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Khalifa_bin_Zayed_Al_Nahyan
 https://en.wikipedia.org/wiki/Khalifa_bin_Zayed_Al_Nahyan
 QID: Q1059948
 
 Rank: 3
 WP Title: Khalifa
 Score: 80.94000244140625
-Khalifa (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Khalifa
 https://en.wikipedia.org/wiki/Khalifa
 QID: Q30102470
 
@@ -566,24 +440,18 @@ MENTION: 	 hamad al thani
 Rank: 1
 WP Title: Hamad bin Khalifa Al Thani
 Score: 87.51000213623047
-Hamad bin Khalifa Al Thani (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Hamad_bin_Khalifa_Al_Thani
 https://en.wikipedia.org/wiki/Hamad_bin_Khalifa_Al_Thani
 QID: Q57360
 
 Rank: 2
 WP Title: Hamad bin Jassim bin Jaber Al Thani
 Score: 86.12999725341797
-Hamad bin Jassim bin Jaber Al Thani (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Hamad_bin_Jassim_bin_Jaber_Al_Thani
 https://en.wikipedia.org/wiki/Hamad_bin_Jassim_bin_Jaber_Al_Thani
 QID: Q57734
 
 Rank: 3
 WP Title: Hamad bin Suhaim Al Thani
 Score: 86.12000274658203
-Hamad bin Suhaim Al Thani (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Hamad_bin_Suhaim_Al_Thani
 https://en.wikipedia.org/wiki/Hamad_bin_Suhaim_Al_Thani
 QID: Q5643959
 
@@ -592,24 +460,18 @@ MENTION: 	 qatar
 Rank: 1
 WP Title: Qatar
 Score: 83.86000061035156
-Qatar (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Qatar
 https://en.wikipedia.org/wiki/Qatar
 QID: Q846
 
 Rank: 2
 WP Title: Emir of Qatar
 Score: 79.5199966430664
-Emir of Qatar (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Emir_of_Qatar
 https://en.wikipedia.org/wiki/Emir_of_Qatar
 QID: Q1649527
 
 Rank: 3
 WP Title: History of Qatar
 Score: 78.88999938964844
-History of Qatar (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/History_of_Qatar
 https://en.wikipedia.org/wiki/History_of_Qatar
 QID: Q944391
 
@@ -618,28 +480,22 @@ MENTION: 	 al thani
 Rank: 1
 WP Title: House of Al Thani
 Score: 84.36000061035156
-House of Al Thani (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/House_of_Thani
 https://en.wikipedia.org/wiki/House_of_Thani
 QID: Q2502270
 
 Rank: 2
 WP Title: Ahmad bin Ali Al Thani
 Score: 81.98999786376953
-Ahmad bin Ali Al Thani (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Ahmad_bin_Ali_Al_Thani
 https://en.wikipedia.org/wiki/Ahmad_bin_Ali_Al_Thani
 QID: Q2827460
 
 Rank: 3
 WP Title: Ali bin Abdullah Al Thani
 Score: 81.55999755859375
-Ali bin Abdullah Al Thani (id: ??, ns: 0)
-https://en.wikipedia.org/wiki/Ali_bin_Abdullah_Al_Thani
 https://en.wikipedia.org/wiki/Ali_bin_Abdullah_Al_Thani
 QID: Q2470332
 
 
 
 
-0:25:56.779353
+0:23:47.457398
