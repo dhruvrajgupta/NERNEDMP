@@ -1,0 +1,607 @@
+====================================================================================================
+TEXT: His eldest son Akash Ambani, 30, took over as chairman of the board of directors. Ambani, however, will continue to be the chairman of Jio Platforms, the parent company of Reliance Jio Infocomm that owns all Jio digital services brands.
+MENTION: His
+
+Rank: 1
+Label: Healthcare Improvement Scotland
+WD-rank: 4.249525633647288
+https://en.wikipedia.org/wiki/Healthcare_Improvement_Scotland
+QID: Q16983657
+
+Rank: 2
+Label: His
+WD-rank: 4.08522928532259
+https://en.wikipedia.org/wiki/His,_Haute-Garonne
+QID: Q1431491
+
+MENTION: son
+
+Rank: 1
+Label: Son
+WD-rank: 2.546573860662704
+No WP URL
+QID: Q63116687
+
+Rank: 2
+Label: Son
+WD-rank: 2.3409559113864624
+No WP URL
+QID: Q3489995
+
+Rank: 3
+Label: Son
+WD-rank: 1.6843217154092827
+No WP URL
+QID: Q13207196
+
+MENTION: over
+
+Rank: 1
+Label: Over
+WD-rank: 10.66672056112301
+https://en.wikipedia.org/wiki/Over,_Seevetal
+QID: Q870732
+
+Rank: 2
+Label: Over
+WD-rank: 5.576830643016326
+https://en.wikipedia.org/wiki/Over,_Cambridgeshire
+QID: Q5002826
+
+MENTION: parent
+
+Rank: 1
+Label: André Parent
+WD-rank: 2.9758821186403885
+https://en.wikipedia.org/wiki/Andr%C3%A9_Parent
+QID: Q2848396
+
+Rank: 2
+Label: Octave Parent
+WD-rank: 2.4937151676143294
+https://en.wikipedia.org/wiki/Octave_Parent
+QID: Q21282925
+
+MENTION: company
+
+Rank: 1
+Label: Kawasaki Motors
+WD-rank: 3.2803308734468963
+https://en.wikipedia.org/wiki/Kawasaki_Heavy_Industries_Motorcycle_%26_Engine
+QID: Q249033
+
+Rank: 2
+Label: China Ocean Shipping Co., Ltd.
+WD-rank: 2.0250353967593355
+https://en.wikipedia.org/wiki/COSCO
+QID: Q117286
+
+MENTION: Reliance Jio
+
+Rank: 1
+Label: Jio
+WD-rank: 0.09418619800425887
+https://en.wikipedia.org/wiki/Jio
+QID: Q18643672
+
+MENTION: all
+
+Rank: 1
+Label: Carlo Allioni
+WD-rank: 4.000379120690621
+https://en.wikipedia.org/wiki/Carlo_Allioni
+QID: Q161420
+
+Rank: 2
+Label: All
+WD-rank: 0.49406189712685844
+https://en.wikipedia.org/wiki/All_(band)
+QID: Q294453
+
+MENTION: Jio
+
+Rank: 1
+Label: Jio
+WD-rank: 0.09418619800425887
+https://en.wikipedia.org/wiki/Jio
+QID: Q18643672
+
+MENTION: digital
+
+Rank: 1
+Label: Digital Equipment Corporation
+WD-rank: 9.010515679358898
+https://en.wikipedia.org/wiki/Digital_Equipment_Corporation
+QID: Q690079
+
+Rank: 2
+Label: Digital Underground
+WD-rank: 0.4709431949778491
+https://en.wikipedia.org/wiki/Digital_Underground
+QID: Q605778
+
+
+
+
+====================================================================================================
+TEXT: Hermann H. Dieter (* 19. January 1945 in Spaichingen) is a German biochemist and toxicologist who has mainly dealt with the toxicology of drinking water ingredients. Until January 2012, he was head of the department 'Toxicology of drinking and bathing pool water' in the German Federal Environment Agency, before that of the Institute for Water, Soil and Air Hygiene of the Federal Health Office, which was dissolved in 1994.
+MENTION: Hermann
+
+Rank: 1
+Label: Hermann
+WD-rank: 5.038197171335067
+https://en.wikipedia.org/wiki/Hermann,_Missouri
+QID: Q966428
+
+Rank: 2
+Label: Prince Hermann of Saxe-Weimar-Eisenach
+WD-rank: 3.4219053777243005
+https://en.wikipedia.org/wiki/Prince_Hermann_of_Saxe-Weimar-Eisenach_(1825%E2%80%931901)
+QID: Q555409
+
+Rank: 3
+Label: Hermann of Dorpat
+WD-rank: 3.238470276607533
+https://en.wikipedia.org/wiki/Hermann_of_Dorpat
+QID: Q387129
+
+MENTION: Spaichingen
+
+Rank: 1
+Label: Spaichingen
+WD-rank: 6.83055348712562
+https://en.wikipedia.org/wiki/Spaichingen
+QID: Q519688
+
+MENTION: who
+
+Rank: 1
+Label: World Health Organization
+WD-rank: 13.862072919216088
+https://en.wikipedia.org/wiki/World_Health_Organization
+QID: Q7817
+
+Rank: 2
+Label: World Health Organization Regional Office for Africa
+WD-rank: 9.727947645343361
+No WP URL
+QID: Q30262121
+
+Rank: 3
+Label: World Health Organization
+WD-rank: 9.675933182366432
+No WP URL
+QID: Q30268340
+
+MENTION: has
+
+Rank: 1
+Label: Hong Kong Airport Services
+WD-rank: 3.3029539221320654
+https://en.wikipedia.org/wiki/Hong_Kong_Airport_Services
+QID: Q16921687
+
+MENTION: water
+
+Rank: 1
+Label: Long Lake
+WD-rank: 4.147493868820494
+No WP URL
+QID: Q22653449
+
+MENTION: head
+
+Rank: 1
+Label: Geneva University of Art and Design
+WD-rank: 1.9641747043274371
+https://en.wikipedia.org/wiki/Geneva_University_of_Art_and_Design
+QID: Q3128581
+
+Rank: 2
+Label: Brian Welch
+WD-rank: 1.316759261139694
+https://en.wikipedia.org/wiki/Brian_Welch
+QID: Q331733
+
+Rank: 3
+Label: Guy Head
+WD-rank: 0.577213977005318
+https://en.wikipedia.org/wiki/Guy_Head
+QID: Q18593093
+
+MENTION: department
+
+Rank: 1
+Label: Tô Department
+WD-rank: 2.203475889467711
+https://en.wikipedia.org/wiki/T%C3%B4_Department
+QID: Q833253
+
+MENTION: pool
+
+Rank: 1
+Label: Blackpool F.C.
+WD-rank: 5.030998025127335
+https://en.wikipedia.org/wiki/Blackpool_F.C.
+QID: Q19449
+
+Rank: 2
+Label: Ferdinand Bol
+WD-rank: 4.096117167398521
+https://en.wikipedia.org/wiki/Ferdinand_Bol
+QID: Q374039
+
+Rank: 3
+Label: Pool
+WD-rank: 2.4784510744674506
+https://en.wikipedia.org/wiki/Pool_(website)
+QID: Q7228559
+
+MENTION: water
+
+Rank: 1
+Label: Long Lake
+WD-rank: 4.147493868820494
+No WP URL
+QID: Q22653449
+
+MENTION: German Federal Environment Agency
+
+Rank: 1
+Label: Federal Environment Agency
+WD-rank: 5.744163330151018
+https://en.wikipedia.org/wiki/Umweltbundesamt
+QID: Q2491722
+
+Rank: 2
+Label: Federal Environment Agency building
+WD-rank: 2.9020607758292165
+No WP URL
+QID: Q111009013
+
+MENTION: Air
+
+Rank: 1
+Label: Indian reservation of the United States
+WD-rank: 7.245953823073361
+https://en.wikipedia.org/wiki/Indian_reservation
+QID: Q5398059
+
+Rank: 2
+Label: AIR Worldwide
+WD-rank: 2.4432190832552436
+https://en.wikipedia.org/wiki/AIR_Worldwide
+QID: Q55316619
+
+Rank: 3
+Label: Airport Station
+WD-rank: 1.5899929028232442
+https://en.wikipedia.org/wiki/Airport_station_(MTR)
+QID: Q2828748
+
+
+
+
+====================================================================================================
+TEXT: Michael Douglas Henry 'Mike Kroeger' (* 25. June 1972 in Hanna, Alberta) is a founding member of the Canadian rock band Nickelback, in which he still works as a bassist. Previously, he was already active with some of today's members of Nickelback in the band The Village Idiots.
+MENTION: Michael Douglas
+
+Rank: 1
+Label: Michael Crichton
+WD-rank: 5.953673702703323
+https://en.wikipedia.org/wiki/Michael_Crichton
+QID: Q172140
+
+Rank: 2
+Label: Michael Douglas
+WD-rank: 5.132267441922881
+https://en.wikipedia.org/wiki/Michael_Douglas
+QID: Q119798
+
+MENTION: Henry
+
+Rank: 1
+Label: Patrick Henry
+WD-rank: 7.246833890888494
+https://en.wikipedia.org/wiki/Patrick_Henry
+QID: Q311885
+
+Rank: 2
+Label: Henry Art Gallery
+WD-rank: 5.865297787983554
+https://en.wikipedia.org/wiki/Henry_Art_Gallery
+QID: Q5717411
+
+Rank: 3
+Label: Saint Emeric of Hungary
+WD-rank: 5.42760076157629
+https://en.wikipedia.org/wiki/Saint_Emeric_of_Hungary
+QID: Q359259
+
+MENTION: Mike Kroeger
+
+Rank: 1
+Label: Mike Kroeger
+WD-rank: 1.377926553137744
+https://en.wikipedia.org/wiki/Mike_Kroeger
+QID: Q1156782
+
+MENTION: Hanna
+
+Rank: 1
+Label: Hanna
+WD-rank: 2.1791154902267316
+https://en.wikipedia.org/wiki/Hanna,_Alberta
+QID: Q747623
+
+MENTION: Alberta
+
+Rank: 1
+Label: Alberta
+WD-rank: 11.387681750810183
+https://en.wikipedia.org/wiki/Alberta
+QID: Q1951
+
+Rank: 2
+Label: Alberta
+WD-rank: 1.1701779874305558
+https://en.wikipedia.org/wiki/Alberta,_Queen_of_Castile
+QID: Q27653532
+
+MENTION: Canadian
+
+Rank: 1
+Label: The Canadian
+WD-rank: 5.0250562579132705
+https://en.wikipedia.org/wiki/The_Canadian_(train)
+QID: Q1069301
+
+Rank: 2
+Label: Canadian
+WD-rank: 4.625855841962764
+https://en.wikipedia.org/wiki/Canadian,_Texas
+QID: Q970397
+
+Rank: 3
+Label: Canadian
+WD-rank: 4.030932468619646
+https://en.wikipedia.org/wiki/Canadian,_Oklahoma
+QID: Q1928988
+
+MENTION: rock
+
+Rank: 1
+Label: Dwayne Johnson
+WD-rank: 8.516174116740375
+https://en.wikipedia.org/wiki/Dwayne_Johnson
+QID: Q10738
+
+Rank: 2
+Label: Northern Rock
+WD-rank: 5.4970173430445435
+https://en.wikipedia.org/wiki/Northern_Rock
+QID: Q1130757
+
+Rank: 3
+Label: John D. Rockefeller, Jr. Library
+WD-rank: 3.9958585016961194
+https://en.wikipedia.org/wiki/John_D._Rockefeller_Jr._Library
+QID: Q6228301
+
+MENTION: band
+
+Rank: 1
+Label: Band
+WD-rank: 4.3744263774324175
+https://en.wikipedia.org/wiki/Band,_Mure%C8%99
+QID: Q12080772
+
+Rank: 2
+Label: chambranle
+WD-rank: 4.151526808512951
+https://en.wikipedia.org/wiki/Chambranle
+QID: Q1753397
+
+Rank: 3
+Label: Bánd
+WD-rank: 3.6960607809116937
+https://en.wikipedia.org/wiki/B%C3%A1nd
+QID: Q580946
+
+MENTION: Nickelback
+
+Rank: 1
+Label: Nickelback
+WD-rank: 4.560883869449377
+https://en.wikipedia.org/wiki/Nickelback
+QID: Q483802
+
+MENTION: still
+
+Rank: 1
+Label: Still
+WD-rank: 5.535173703197145
+https://en.wikipedia.org/wiki/Still,_Bas-Rhin
+QID: Q22903
+
+Rank: 2
+Label: Still
+WD-rank: 4.886000196467851
+https://en.wikipedia.org/wiki/Still,_El_Oued
+QID: Q3499461
+
+MENTION: active
+
+Rank: 1
+Label: ACTIVE Network, LLC
+WD-rank: 0.4851125958862639
+https://en.wikipedia.org/wiki/Active_Network,_LLC
+QID: Q18204835
+
+MENTION: today
+
+Rank: 1
+Label: Today
+WD-rank: 2.6828268183291257
+https://en.wikipedia.org/wiki/Today_(American_TV_program)
+QID: Q130838
+
+MENTION: Nickelback
+
+Rank: 1
+Label: Nickelback
+WD-rank: 4.560883869449377
+https://en.wikipedia.org/wiki/Nickelback
+QID: Q483802
+
+MENTION: band
+
+Rank: 1
+Label: Band
+WD-rank: 4.3744263774324175
+https://en.wikipedia.org/wiki/Band,_Mure%C8%99
+QID: Q12080772
+
+Rank: 2
+Label: chambranle
+WD-rank: 4.151526808512951
+https://en.wikipedia.org/wiki/Chambranle
+QID: Q1753397
+
+Rank: 3
+Label: Bánd
+WD-rank: 3.6960607809116937
+https://en.wikipedia.org/wiki/B%C3%A1nd
+QID: Q580946
+
+MENTION: Village
+
+Rank: 1
+Label: Edinburgh of the Seven Seas
+WD-rank: 8.247056944223006
+https://en.wikipedia.org/wiki/Edinburgh_of_the_Seven_Seas
+QID: Q498153
+
+
+
+
+====================================================================================================
+TEXT: Sheikh Khalifa bin Hamad Al Thani, the grandfather of the current emir, was born on September 17, 1932. He was the sixth ruler of Qatar and the second ruler of the Al Thani dynasty.
+MENTION: Khalifa bin Hamad Al Thani
+
+Rank: 1
+Label: Khalifa bin Hamad Al Thani
+WD-rank: 6.153722998719662
+https://en.wikipedia.org/wiki/Khalifa_bin_Hamad_Al_Thani
+QID: Q2072385
+
+MENTION: born
+
+Rank: 1
+Label: Born
+WD-rank: 6.209411763937343
+No WP URL
+QID: Q51627029
+
+Rank: 2
+Label: Born
+WD-rank: 4.010376438607203
+https://en.wikipedia.org/wiki/Born,_Netherlands
+QID: Q502343
+
+Rank: 3
+Label: Born
+WD-rank: 1.8707101544379832
+No WP URL
+QID: Q893912
+
+MENTION: September
+
+Rank: 1
+Label: Petra Marklund
+WD-rank: 1.4841425621083673
+https://en.wikipedia.org/wiki/Petra_Marklund
+QID: Q230066
+
+Rank: 2
+Label: September
+WD-rank: 1.140308920438045
+No WP URL
+QID: Q20025676
+
+MENTION: He
+
+Rank: 1
+Label: Hurricane Electric
+WD-rank: 3.444011312876494
+https://en.wikipedia.org/wiki/Hurricane_Electric
+QID: Q1346687
+
+Rank: 2
+Label: Yolo
+WD-rank: 1.1329175316500155
+https://en.wikipedia.org/wiki/Yolo_(prince)
+QID: Q11050638
+
+Rank: 3
+Label: Hans Eworth
+WD-rank: 0.9303766727002198
+https://en.wikipedia.org/wiki/Hans_Eworth
+QID: Q2468731
+
+MENTION: Qatar
+
+Rank: 1
+Label: Qatar
+WD-rank: 12.240047237082553
+https://en.wikipedia.org/wiki/Qatar
+QID: Q846
+
+MENTION: second
+
+Rank: 1
+Label: Exile The Second
+WD-rank: 0.8468242168907665
+https://en.wikipedia.org/wiki/Exile_the_Second
+QID: Q10852881
+
+MENTION: Al
+
+Rank: 1
+Label: Albania
+WD-rank: 13.16155684851584
+https://en.wikipedia.org/wiki/Albania
+QID: Q222
+
+Rank: 2
+Label: Alabama
+WD-rank: 11.383142123833865
+https://en.wikipedia.org/wiki/Alabama
+QID: Q173
+
+Rank: 3
+Label: Alagoas
+WD-rank: 9.234330534567212
+https://en.wikipedia.org/wiki/Alagoas
+QID: Q40885
+
+MENTION: Thani
+
+Rank: 1
+Label: Thani
+WD-rank: 1.8870064739579142
+No WP URL
+QID: Q16029550
+
+MENTION: dynasty
+
+Rank: 1
+Label: China Airlines
+WD-rank: 10.901606651258708
+https://en.wikipedia.org/wiki/China_Airlines
+QID: Q51756
+
+
+
+
+0:00:28.885622
