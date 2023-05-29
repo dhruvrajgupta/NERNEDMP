@@ -4,3 +4,4 @@ BLINK
 .DS_Store
 spacyopentapioca
 .vscode
+tool/__pycache__

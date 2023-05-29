@@ -1,8 +1,11 @@
 import streamlit as st
 import json
 import utilities
+import requests
+from readability import Document
+import pandas as pd
 
-text_mappings = {}
+text_mappings = None
 fetched_wikifier_texts = {}
 new_text = None
 
@@ -27,14 +30,13 @@ def make_db():
 
 
 def read_sentences():
+    records = []
     with st.spinner('Loading Saved Texts ...'):
         with open("tool_db.jsonl", "r") as file:
             for line in file.readlines():
                 line = json.loads(line)
-                text_mappings[line["doc_id"]] = {
-                    "title": line["title"],
-                    "text": line["text"]
-                }
+                records.append(line)
+    return pd.DataFrame.from_dict(records)
 
 
 def read_pre_fetched_wikifiers():
@@ -52,7 +54,7 @@ def get_wikifier(doc_id):
         return fetched_wikifier_texts[doc_id]
     else:
         with st.spinner("Fetching Wikifier Response ..."):
-            return utilities.wikifier(text_mappings[doc_id])
+            return utilities.wikifier(text_mappings.iloc[doc_id]["text"])
 
 
 def get_valid_tabs(wikifier_check):
@@ -63,19 +65,30 @@ def get_valid_tabs(wikifier_check):
     return valid_tabs
 
 
+def get_cleaned_html(text):
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(text)
+    for a in soup.findAll('a'):
+        a.replaceWithChildren()
+    for h in soup.findAll(['h1', 'h2', 'h3']):
+        if h.name == 'h1':
+            h.name = 'h2'
+        elif h.name == 'h2':
+            h.name = 'h3'
+        elif h.name == 'h3':
+            h.name = 'h4'
+
+    return str(soup)
+
+
 def main():
 
     with st.sidebar:
         new_text_ckbox = st.checkbox("Add New Text")
         selected_text = st.radio("Saved Texts", tuple(
-            list(text_mappings.keys())),
-            format_func=lambda x: text_mappings[x]["title"],
+            list(text_mappings["doc_id"])),
+            format_func=lambda x: text_mappings.iloc[x]["title"],
             key="selected_text_radio")
-        # Disable Saved Texts Radio
-        # From URL
-
-        # From Text Box
-        pass
 
     if new_text_ckbox:
         text_from = st.radio(
@@ -83,8 +96,23 @@ def main():
 
         if text_from == "Add URL":
             st.text_input(
-                "Add URL", "", placeholder="http://www.example.com/article.com")
-            st.button("Fetch Text")
+                "Add URL", "",
+                placeholder="http://www.example.com/article.com",
+                key="add_url")
+
+            if st.button("Fetch Text"):
+                if len(st.session_state.add_url) > 0:
+                    with st.spinner(f"Fetching text from {st.session_state.add_url}"):
+                        response = requests.get(st.session_state.add_url)
+                        st.write(f"Status Code: {response.status_code}")
+                        if response.status_code == 200:
+                            text = Document(response.content)
+                            title = text.title()
+                            text = text.summary()
+
+                            st.header(title)
+                            st.markdown(get_cleaned_html(text),
+                                        unsafe_allow_html=True)
 
         if text_from == "Text Input":
             st.text_area("Enter Text", "", placeholder="An example text ...")
@@ -96,8 +124,8 @@ def main():
 
         with main_col:
 
-            st.subheader(text_mappings[selected_text]["title"])
-            st.markdown(text_mappings[selected_text]["text"])
+            st.subheader(text_mappings.iloc[selected_text]["title"])
+            st.markdown(text_mappings.iloc[selected_text]["text"])
 
             wikifier_check = st.checkbox('Wikifier JSON')
 
@@ -120,6 +148,6 @@ def main():
 
 if __name__ == "__main__":
     # make_db()
-    read_sentences()
+    text_mappings = read_sentences()
     read_pre_fetched_wikifiers()
     main()
