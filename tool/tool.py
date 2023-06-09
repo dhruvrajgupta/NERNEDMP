@@ -67,7 +67,7 @@ def get_valid_tabs(wikifier_check):
 
 def get_cleaned_html(text):
     from bs4 import BeautifulSoup
-    soup = BeautifulSoup(text)
+    soup = BeautifulSoup(text, features="lxml")
     for a in soup.findAll('a'):
         a.replaceWithChildren()
     for h in soup.findAll(['h1', 'h2', 'h3']):
@@ -88,7 +88,7 @@ def main():
         selected_text = st.radio("Saved Texts", tuple(
             list(text_mappings["doc_id"])),
             format_func=lambda x: text_mappings.iloc[x]["title"],
-            key="selected_text_radio")
+            key="selected_text_radio", disabled=new_text_ckbox)
 
     if new_text_ckbox:
         text_from = st.radio(

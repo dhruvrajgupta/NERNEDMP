@@ -1,0 +1,4 @@
+streamlit
+readability-lxml
+beautifulsoup4
+spacy
