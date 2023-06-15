@@ -8,6 +8,7 @@ import pandas as pd
 text_mappings = None
 fetched_wikifier_texts = {}
 new_text = None
+wikifier_response = None
 
 st.set_page_config(layout="wide")
 
@@ -81,6 +82,23 @@ def get_cleaned_html(text):
     return str(soup)
 
 
+# def make_anchor_tags(text, wikifier_response):
+#     orig_text = text
+#     generated_text = ""
+#     start_pos = 0
+#     end_pos = 0
+#     for annotation in wikifier_response["annotations"]:
+#         for support in annotation["support"]:
+#             ann_start_pos = support["chFrom"]
+#             ann_end_pos = support["chTo"]+1
+#
+#             generated_text += orig_text[current_pos:ann_start_pos] + \
+#                 f"<a href=''>{orig_text[ann_start_pos:ann_end_pos]}</a>"
+#             current_pos = ann_end_pos
+#
+#     return generated_text
+
+
 def main():
 
     with st.sidebar:
@@ -119,13 +137,14 @@ def main():
             st.button("Process Text")
 
     else:
-
-        main_col, ent_col = st.columns([5, 1], gap="large")
+        orig_text = text_mappings.iloc[selected_text]["text"]
+        showing_text = text_mappings.iloc[selected_text]["text"]
+        main_col, ent_col = st.columns([4, 1], gap="large")
 
         with main_col:
 
             st.subheader(text_mappings.iloc[selected_text]["title"])
-            st.markdown(text_mappings.iloc[selected_text]["text"])
+            st.markdown(showing_text)
 
             wikifier_check = st.checkbox('Wikifier JSON')
 
@@ -139,7 +158,8 @@ def main():
                 for tab_id in range(len(tab_texts)):
                     if tab_texts[tab_id] == "Wikifier JSON":
                         with tabs[tab_id]:
-                            st.json(get_wikifier(selected_text),
+                            wikifier_response = get_wikifier(selected_text)
+                            st.json(wikifier_response,
                                     expanded=False)
 
         with ent_col:
