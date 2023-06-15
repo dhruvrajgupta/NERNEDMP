@@ -8,7 +8,6 @@ import pandas as pd
 text_mappings = None
 fetched_wikifier_texts = {}
 new_text = None
-wikifier_response = None
 
 st.set_page_config(layout="wide")
 
@@ -161,6 +160,30 @@ def main():
                             wikifier_response = get_wikifier(selected_text)
                             st.json(wikifier_response,
                                     expanded=False)
+
+                            # Annotations display
+                            st.write("Annotations :")
+                            annotations = wikifier_response["annotations"]
+                            ranges = wikifier_response["ranges"]
+                            for annotation in annotations:
+                                st.write(f"Entity: {annotation['title']}")
+                                annotation_texts = []
+                                for support in annotation["support"]:
+                                    annotation_text = orig_text[support["chFrom"]:support["chTo"]+1]
+                                    annotation_texts.append(annotation_text)
+
+                                first_col, second_col = st.columns(2)
+                                with first_col:
+                                    st.write(annotation_texts)
+                                    max_len_text = max(annotation_texts, key=len)
+                                    st.write(f"Selected text: {max_len_text}")
+                                with second_col:
+                                    for r in ranges:
+                                        if r["wordsUsed"] == str(max_len_text).split():
+                                            candidates = r["candidates"]
+                                            for candidate in candidates:
+                                                st.write(candidate["title"])
+                                st.divider()
 
         with ent_col:
             st.write("Entity Info")
